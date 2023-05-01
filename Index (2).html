@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="link rel=" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+
+
+
+<style>
+    .main {
+        background-color: #f89651;
+
+    }
+
+    .container-fluid {
+        height: 100vh;
+    }
+
+    .logo img {
+        width: 72px;
+        height: 72px;
+        margin-top: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 20%;
+        margin-top: -94px;
+
+
+    }
+
+    .simple {
+        display: flex;
+
+    }
+
+    ul li {
+        list-style: none;
+        padding: 40px;
+        color: white;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #302d30;
+        font-size: 20px;
+    }
+
+    ul li a:hover {
+        color: burlywood;
+        text-decoration: underline;
+    }
+
+    .btn {
+        background-color: bisque;
+        width: 186px;
+        color: black;
+        margin-right: 50%;
+        border: none;
+    }
+
+    h1 {
+        color: black;
+        margin-left: -13%;
+        font-family: 'font-family: ' Ubuntu', sans-serif';
+
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        color: bisque;
+        font-family: 'font-family: ' Ubuntu', sans-serif';
+        margin-left: -13%;
+        font-size: 2.3rem;
+        margin-top: -13px;
+    }
+
+    p {
+
+
+        margin-left: -13%;
+        width: 400px;
+        font-family: 'inter';
+        color: #333233;
+
+    }
+
+    .second {
+        margin-left: -13%;
+        width: 137px;
+    }
+
+    .btn:hover {
+        background-color: burlywood;
+    }
+   
+
+
+    @media (min-width:100px) and (max-width:758px) {
+        .menu ul li {
+            display: none;
+
+        }
+
+        body {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        img {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        p {
+            margin-left:0%;
+            width: auto;
+        }
+
+        .second {
+            margin-left: 28%;
+        }
+        .mon{
+            margin-left: 18%;
+            width: auto;
+            height: 100%;
+        }
+        .main{
+            height: 180vh;
+           
+        }
+        h1{
+            margin-left: -5%;
+        }
+
+    }
+</style>
+
+
+
+
+</style>
+
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+
+                    <div class="logo">
+                        <img src="git/quill.png" alt="">
+                    </div>
+                    <div class="menu">
+                        <ul class="simple">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Products</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mr-3 mt-5">
+                    <a href="#" class="btn btn-primary">Shop now in 50% off</a>
+                </div>
+            </div>
+            <br>
+
+
+            <div class="row">
+                <div class="col-md-5 mt-5  coloumn">
+                    <h1>Growth your Skin With</h1>
+                    <h2>Our Services</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repudiandae eaque ad totam
+                        ratione laboriosam consectetur minus molestiae rerum labore..</p>
+                    <a href="#" class="btn btn-primary second">Buy now</a>
+
+
+                </div>
+
+                <div class="col-md-4 order-first">
+                    <div class="bil mt-5">
+                        <img src="git/cut.png" alt="" class="img-fluid mon"
+                            style="margin-right: 20%; margin-top: -10px;  border: none;">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="git/cut.png" alt="" style="margin-top:32px;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
